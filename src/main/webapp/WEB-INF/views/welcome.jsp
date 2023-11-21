@@ -28,8 +28,8 @@
                             <a class="navbar-brand" href="#" style="margin-right:-8px; margin-top:-5px;">
                                 <img alt="Brand" src="${contextPath}/resources/Images/user/logo.png" width="30px" height="30px">
                             </a>
-                            <a class="navbar-brand" href="#">VisualPath</a>
-                            <i class="brand_network"><small><small>VP* Network</small></small></i>
+                            <a class="navbar-brand" href="#">TechMinds Academy</a>
+                            <i class="brand_network"><small><small>IT Learning Hup</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
@@ -59,7 +59,7 @@
                                                     <div class="col-md-7">
                                                         <span> ${pageContext.request.userPrincipal.name}</span> <br/>
                                                         <p class="text-muted small">
-                                                            ${pageContext.request.userPrincipal.name}@visualpath.co.in</p>
+                                                            ${pageContext.request.userPrincipal.name}@techmind@academy.learn</p>
                                                         <div class="divider">
                                                         </div>
                                                         <a href="${contextPath}/user/${pageContext.request.userPrincipal.name}" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> UpdateProfile </a>
